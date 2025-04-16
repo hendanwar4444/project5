@@ -1,0 +1,341 @@
+*
+{
+    margin: 0;
+    
+}
+/*------------------------------------header----------------------------------------------------*/
+header
+{
+    width: 100%;
+    height: 550px;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment:  fixed;
+    background-repeat: no-repeat;
+    color:black;
+}
+/*-----------------------------------nav-----------------------------------------------------*/
+ ul li 
+{
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+}
+.li
+{
+position: relative;
+left: 100px;
+top: 20px;
+color:white;
+}
+nav
+{
+    display: flex;
+    padding: 0px 200px;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+/*---------------------------------------home------------------------------------------------*/
+.home
+{
+    background-color:blueviolet;
+    padding: 10px;
+    border-radius: 30% 10%;
+}
+.img-phon
+{
+    width: 290px;
+
+}
+#shahed
+{
+display: flex;
+justify-content: center;
+padding-top: 85px;
+}
+#text
+{
+width: 400px;
+color: white;
+margin: 50px;
+}
+.app-store ,.GooglePlay
+{
+    width: 100px;
+    margin: 10px;
+}
+h1
+{
+width:250px;
+}
+/*------------------------------------------Parent----------------------------------------------*/
+.Parent
+{
+  text-align: center;
+  padding: 50px;
+  height: 400px;
+  background-image: url(../img/backgrond3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.Amazing-Feature
+{
+    width: 700px;
+    padding-left: 400px;
+}
+.Amazing
+{
+    background-color: blueviolet; 
+    width: 180px;
+    border-radius: 10% 30%;
+    padding: 10px;
+    margin: auto;
+    color: white;
+}
+.number{
+    
+    font-size: x-large;       
+}
+.index
+{
+    width: 300px;
+    display: inline-block;
+    background-color: slateblue;
+    border-radius: 30% 10%;
+    padding-top: 20px;
+    margin: 60px 20px;
+    padding: 10px;
+    
+}
+.fa-users , .fa-music ,.fa-image
+{
+    border: double palevioletred 5px;
+    padding: 10px;
+    border-radius: 50%;
+}
+/*------------------------------------------Parent2----------------------------------------------*/
+.Parent2
+{
+    width: 100%;
+    height: 510px;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment:  fixed;
+    background-repeat: no-repeat;
+    color: white;
+   padding-top: 20px;
+   overflow: hidden;
+}
+#h22
+ {
+position: relative;
+left: 650px;
+margin-top: 30px;
+ }
+.div1
+{
+    display: flex;
+    justify-content: center;
+}
+.icons
+{
+padding-top: 50px;
+width: 450px;
+}
+.imgIcons
+{
+    width: 15px;
+    position: relative;
+    left: -30px;
+    top: 16px;
+}
+.hand-phone
+{
+    width: 580px;
+    height: 420px;
+   /* overflow: hidden;*/
+    padding-top: 110px;
+}
+.h2
+{
+    width: 150px;
+    background-color: blueviolet;
+    border-radius: 10% 30%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    color: white;
+}
+/*------------------------------------------Parent3----------------------------------------------*/
+.Parent3
+{
+    width: 100%;
+    height: 650px;
+    background-image: url(../img/backgrond2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+   padding-top: 20px; 
+}
+.Screenshote
+{
+margin: 0 50px;
+display: flex;
+justify-content: center;
+justify-content: space-around;
+position: relative;
+left: 60px;
+padding: 0 100px;
+}
+.img1
+{
+    width: 250px;
+}
+.point1,.point2
+{
+   width: 5px;
+   height: 5px;
+   border:  solid;
+   border-radius: 20px;
+   position: relative;
+   top:500px;
+   right: 610px;
+   display: inline-block;
+   margin: 0 3px;
+}
+.point1, .point2:hover
+{
+    background-color: black;
+}
+/*-----------------------------------------Parent4-----------------------------------------------*/
+.Parent4
+{
+    height: 370px;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.aboutLura
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.text-lura
+{
+    width: 700px;
+    padding: 60px;
+   /* margin-top: 5px;*/
+    color: white;
+}
+.point3 , .point4 ,.point5
+{
+    width: 5px;
+    height: 5px;
+    border:  solid white;
+    border-radius: 20px;
+    position: relative;
+    top:259px;
+    right: 560px;
+    display: inline-block;
+   /* margin: 0 5px; */
+ }
+.point3
+{
+    background-color: white;
+}
+.point4:hover
+{
+background-color: white;
+}
+.point5:hover
+{
+    background-color: white;
+}
+/*-------------------------------------------Parent5---------------------------------------------*/
+.Parent5
+{
+    height: 370px;
+    background-image: url(../img/back.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    padding: 80px;
+}
+.get
+{
+    width: 900px;
+    text-align: center;
+    margin: auto;
+}
+.touch
+{
+background-color: blueviolet; 
+   width: 180px;
+    border-radius: 10% 30%;
+    padding: 10px;
+    margin: auto;
+    color: white;
+}
+textarea
+{
+    width: 77%;
+    height: 150px;
+    color: #000;
+    margin-top: 10px;
+}
+button
+{
+    padding: 10px 150px;
+    background-color: blueviolet;
+    border: none;
+    margin-top: 10px;
+}
+button:hover{
+    color:white;
+    border-radius: 10px;
+}
+
+.link
+{
+    width: 30%;
+    display: flex;
+   /* justify-content: center;*/
+    text-align: center;
+    justify-content: space-around;
+   
+    padding-left: 290px;
+    padding-top: 20px;
+}
+/*-----------------------------------------footer----------------------------------------------*/
+.footer
+{
+    width: 98.7%;
+    height: 100px;
+   /* background-color: #000;*/
+    background-color:blueviolet;
+    color: white;
+  /*  color: #000;*/
+    text-align: center;
+    padding-top: 20px;
+    padding: 10px;
+}
+.footer p ,.footer a
+{
+    margin-top: 25px;
+    color: white;
+   /* color: #000;*/
+    text-decoration: none;
+}
+/*.link{
+    margin: 30px;
+}*/
